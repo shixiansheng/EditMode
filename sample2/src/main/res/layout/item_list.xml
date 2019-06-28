@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.abr.sample2.EditLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/edit_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/home_list_default_root_ly"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            >
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/home_list_default_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:maxLines="3"
+                android:gravity="center"
+                android:minLines="2"
+                android:text="全球未来出行大会"
+                android:textColor="#404040"
+                android:textSize="16sp" />
+        </android.support.constraint.ConstraintLayout>
+
+
+
+    <FrameLayout
+        android:id="@+id/fl_pre_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="11dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="11dp"
+            android:layout_marginStart="13dp"
+            android:src="@drawable/delete" />
+    </FrameLayout>
+
+
+</cn.abr.sample2.EditLayout>
